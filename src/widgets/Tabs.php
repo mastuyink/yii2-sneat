@@ -42,7 +42,7 @@ class Tabs extends \yii\bootstrap5\Tabs
 
   public bool $fullWidth = false;
 
-  public function init()
+  public function init():void
   {
     if($this->navType == 'nav-pills'){
       $this->options['class'] = 'mb-3';
